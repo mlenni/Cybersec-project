@@ -1,0 +1,16 @@
+{% extends "notes/base.html" %}
+
+{% block content %}
+<h2>{{ note.title }}</h2>
+
+<p><strong>Owner:</strong> {{ note.owner.username }}</p>
+<p>{{ note.content }}</p>
+
+{% if note.secret_value %}
+<p><strong>Secret value:</strong> {{ note.secret_value }}</p>
+{% endif %}
+
+<p>
+    <a href="{% url 'note_edit' note.id %}">Edit note</a>
+</p>
+{% endblock %}

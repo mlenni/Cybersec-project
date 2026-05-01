@@ -1,0 +1,86 @@
+body {
+    background: #d6d0bd;
+    color: #111;
+    font-family: "Times New Roman", serif;
+    font-size: 22px;  
+    line-height: 1.5;
+    max-width: 1100px;
+    margin: 30px auto;
+    border: 4px ridge #777;
+    padding: 30px;
+}
+
+h1 {
+    background: navy;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    border: 3px outset #aaa;
+    font-size: 3em;
+}
+
+nav {
+    background: #eee;
+    padding: 14px;
+    border: 3px inset #aaa;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 1.2em;
+}
+
+h2 {
+    border-bottom: 3px dashed navy;
+    padding-bottom: 8px;
+    color: maroon;
+    font-size: 2em;
+}
+
+a {
+    color: navy;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+input, textarea, button {
+    font-family: "Times New Roman", serif;
+    font-size: 1em;
+    padding: 8px;
+    border: 3px inset #aaa;
+    background: #f7f7f7;
+}
+
+button {
+    border: 3px outset #aaa;
+    cursor: pointer;
+}
+
+pre {
+    background: #eee;
+    border: 3px inset #aaa;
+    padding: 15px;
+    overflow-x: auto;
+    font-size: 0.9em;
+}
+
+.visitor-counter {
+        text-align: center;
+        font-family: "Comic Sans MS", cursive;
+}
+.warning-banner {
+    display: block;
+    margin: 15px 0;
+    background: #ffffcc;
+    border: 3px dashed red;
+    padding: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.warning-banner span {
+    display: inline-block;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    color: maroon;
+    font-size: 1.2em;
+    animation: slide-warning 5s linear infinite alternate;
+}
